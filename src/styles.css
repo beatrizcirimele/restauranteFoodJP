@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+.body .card{
+    background-color: #F5F5F5;
+}
+
+.star{
+    width: 20px;
+    padding: 20;
+}
+
+.card .user{
+    width: 100px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 40px;
+    
+}
+
+.card{
+    background-color: #a7a5a5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    box-sizing: 80px;
+}
+
+.col{
+    align-items: center;
+}
